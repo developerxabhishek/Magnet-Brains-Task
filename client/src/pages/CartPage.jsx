@@ -13,9 +13,8 @@ import {
 
 const Cart = () => {
   let Sum = 0;
-
   const [cartItems, setCartItems] = useState("");
-  const [email,setEmail]=useState("")
+    const [email,setEmail]=useState("")
   const cartData = useSelector((state) => state.cartSlice.cart);
   const dispatch = useDispatch();
 
