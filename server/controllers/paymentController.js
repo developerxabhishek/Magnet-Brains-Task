@@ -1,6 +1,7 @@
 const paymentModel=require("../models/paymentModel")
 const stripe = require("stripe")(
     //This is the Secret Key of our Stripe....
+    // I have create this account only for this project that the reaon why i am providing the secret key..
     "sk_test_51PJjyxSDNAiTNrgQVRq6LeMKjbvzZ6vK3TlDOBTMGuZKrbYnOWqVqFICm2wrYO39oYpd9MMOwK6fBCKU1X8sflt300F5eiR3eL"
   );
 
